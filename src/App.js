@@ -1,5 +1,6 @@
 import React,{ useState, useEffect } from "react";
 import fire from "./fire"; 
+import Login from "./Login";
 import './App.css';
 
 const App = () => {
@@ -79,7 +80,7 @@ const App = () => {
 
   return (
     <div className="App">
-      
+      <Login/>
     </div>
   );
 };
