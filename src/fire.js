@@ -11,7 +11,7 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = firebase.initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+const fire = firebase.initializeApp(firebaseConfig);
 
-export default app;
+//Export
+export default fire;
