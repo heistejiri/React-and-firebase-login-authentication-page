@@ -34,6 +34,20 @@ const Login = (props) => {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               /> 
+              <p className="errorMsg">{passwordError}</p>
+              <div className="btnContainer">
+                    {hasAccount ?(
+                        <>
+                        <button>Sign In</button>
+                        <p>Don't have an account? <span>Sign Up</span></p>
+                        </>
+                    ) : (
+                      <>
+                      <button>Sign Up</button>
+                      <p>Have an account? <span>Sign In</span></p>
+                      </>
+                    )}
+              </div>
           </div>
       </section>
    )
