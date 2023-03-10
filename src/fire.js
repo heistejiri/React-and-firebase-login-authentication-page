@@ -1,6 +1,8 @@
-import firebase from 'firebase';
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/auth';
+import 'firebase/compat/firestore';
 
-var firebaseConfig = {
+const firebaseConfig = {
   apiKey: "AIzaSyB8RaRh88Ry-SqCPVTUKd5igylKR9yHjMs",
   authDomain: "login-react-app-3fb85.firebaseapp.com",
   projectId: "login-react-app-3fb85",
@@ -10,8 +12,11 @@ var firebaseConfig = {
   measurementId: "G-71QCD8NSHM"
 };
 
-// Initialize Firebase
-const fire = firebase.initializeApp(firebaseConfig);
+// Use this to initialize the firebase App
+const firebaseApp = firebase.initializeApp(firebaseConfig);
 
-//Export
-export default fire;
+// Use these for db & auth
+const db = firebaseApp.firestore();
+const auth = firebase.auth();
+
+export { auth, db };
