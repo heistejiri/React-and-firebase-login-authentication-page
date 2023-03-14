@@ -10,7 +10,7 @@
 
 ## 📌 Tech Stacks
 
-[![React](https://img.shields.io/badge/React5%20-%23E34F26.svg?&style=for-the-badge&logo=React5&logoColor=white)](https://github.com/heistejiri)&nbsp;
+[![React](https://img.shields.io/badge/React%20-%23E34F26.svg?&style=for-the-badge&logo=React&logoColor=white)](https://github.com/heistejiri)&nbsp;
 [![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)](https://github.com/heistejiri)&nbsp;
 [![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://github.com/heistejiri)
 <br>
