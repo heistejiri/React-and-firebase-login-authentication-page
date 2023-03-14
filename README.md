@@ -16,8 +16,6 @@
 <br>
 <br>
 
-## 📌 Overview
-<br>
 
 ## 📬 Connect With Me
 
