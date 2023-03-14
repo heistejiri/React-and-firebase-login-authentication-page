@@ -4,7 +4,7 @@
 <br>
 <br>
 
-## 📌 **Live Site URL:** <a href="https://food-store-ecommerce.netlify.app/">**Visit Now** 🚀</a>
+## 📌 **Live Site URL:** <a href="https://react-and-firebase-login-auth.netlify.app/">**Visit Now** 🚀</a>
 
 <br>
 
